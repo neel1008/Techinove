@@ -1,0 +1,461 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .navbar {
+    display: flex;
+    margin-left: 200px;
+    margin-top: 10px;
+
+  }
+
+  .navbar ul li {
+    float: left;
+    list-style: none;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 15px;
+  }
+
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 19px;
+
+  }
+
+  .navbar ul li a:hover {
+    color: gray;
+    font-weight: bold;
+  }
+
+  .logo {
+    height: 10%;
+    width: 10%;
+    margin-left: -153px;
+    margin-top: 10px;
+    border-radius: 51px;
+  }
+
+  .search {
+    margin-top: -78px;
+    margin-left: 1040px;
+  }
+
+  .search input {
+    border-radius: 10px;
+    height: 23px;
+  }
+
+  .btn {
+    border-radius: 10px;
+    height: 23px;
+    width: 50px;
+  }
+
+  .btn:hover {
+    cursor: pointer;
+  }
+
+  .bg {
+    background: rgba(0, 0, 0, 0.7) url(bg.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 100vh;
+    margin-top: -10px;
+
+  }
+
+  .box1 {
+    /* border: 2px solid red; */
+    height: 33%;
+    width: 42%;
+    margin-top: 210px;
+    margin-left: 155px;
+    color: aliceblue;
+  }
+
+  .box2 {
+
+    margin-left: 590px;
+    margin-right: 62px;
+
+
+  }
+
+  .box2 img {
+    margin-top: -210px;
+    height: 50%;
+    width: 43%;
+    border-radius: 106px;
+    margin-left: 205px;
+    margin-bottom: 25px;
+  }
+
+
+  .aboutus {
+    margin-top: 33px;
+    text-align: center;
+  }
+
+  .box3 {
+    margin-right: 423px;
+    margin-left: 21px;
+    margin-top: 40px;
+    text-align: justify;
+
+  }
+
+  .box4 {
+    margin-left: 668px;
+    margin-right: 60px;
+  }
+
+  .box4 img {
+    margin-top: -154px;
+    border-radius: 36px;
+    margin-bottom: 18px;
+    margin-left: 230px;
+
+  }
+
+  .box5 {
+    margin-top: 80px;
+    margin-left: 405px;
+    text-align: justify;
+    margin-right: 25px;
+    /* border: 2px solid red; */
+  }
+
+  .box6 {
+    /* border: 2px solid red; */
+    margin-right: 668px;
+    margin-left: 60px;
+
+  }
+
+  .box6 img {
+    margin-top: -154px;
+    border-radius: 36px;
+    margin-bottom: 18px;
+
+  }
+
+  .form {
+    margin-top: 33px;
+    text-align: center;
+
+  }
+
+  .form form {
+    justify-content: center;
+    margin-left: 15px;
+  }
+
+  .forms {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+    /* height: 15vh; Optional: This will center the form vertically as well */
+  }
+
+  .fbtn input {
+    margin-left: 615px;
+    width: 72px;
+    font-size: medium;
+    background-color: rgb(64, 184, 12);
+    color: white;
+    border-radius: 5px;
+  }
+
+  .fbtn input:hover {
+    background-color: black;
+    cursor: pointer;
+    font-size: large;
+  }
+
+  .forms input {
+    width: 500px;
+    padding: 2px;
+    margin-left: 10px;
+
+  }
+
+  form {
+    max-width: 400px;
+    /* Optional: Set a maximum width for the form container */
+  }
+
+  label {
+    display: inline-block;
+    width: 150px;
+    /* Set a fixed width for the labels */
+  }
+
+
+  .contact {
+    margin-top: 30px;
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 70px;
+
+
+  }
+
+  .contactus {
+    margin-top: -50px;
+  }
+
+  .contactus h5 {
+    font-size: medium;
+    margin-left: 9px;
+    padding: 6px;
+  }
+
+
+
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(18, 16, 16, 0.828);
+    padding: 20px;
+  }
+
+  .footertext {
+    color: white;
+    font-size: 18px;
+    padding-top: 5px;
+    margin-left: 32px;
+    padding-left: 18px;
+    padding-bottom: 5px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .footer ul li {
+    display: inline;
+    margin-right: 10px;
+    border-right: 1px solid white;
+    padding-right: 15px;
+    /* Add padding to separate items */
+  }
+
+  ul li:last-child {
+    margin-right: 0;
+    /* Remove margin from the last item */
+    border-right: none;
+    /* Remove border from the last item */
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* .logofooter {
+        padding-left: 10px;
+        padding-bottom: 100px;
+        margin-left: 35px;
+        position: relative;
+        display: inline-block;
+    }
+
+    .logofooter h2::after {
+        content: '';
+        position: absolute;
+        top: 65px;
+        right: -5px;
+        height: 50%;
+        width: 1px;
+        background-color: rgb(71, 68, 68); 
+    }
+
+    .logofooter img {
+        height: 10%;
+        width: 10%;
+        margin-bottom: -105px;
+        padding-left: 50px;
+        padding-bottom: 20px;
+        border-radius: 50%;
+    }
+
+    .logofooter h2 {
+        margin-top: 38px;
+        margin-left: 57px;
+        padding-top: 60px;
+    } */
+  /* .logofooter {
+        position: relative;
+        display: inline-block;
+    } */
+
+  /* .address img{
+  height: 25px;
+  width: 25px;
+  padding-left: 15px;
+
+} */
+  /* .contain{
+  float: left;
+}
+.address {
+            display: flex;
+            align-items: center;
+            padding-bottom: 60px;
+            padding-top: 25px;
+            font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+            font-size: 16px;
+        }
+        .address img {
+            margin-right: 17px;
+            padding-bottom: 77px;
+            padding-left: 10px;
+            width: 30px;
+            height: auto; 
+        }
+        .address span {
+            flex-grow: 1;
+        }
+        .vertical-line {
+            border-left: 1px solid gray; 
+            height: 100px; 
+            
+            padding-right: 858px;
+        }
+        .call {
+            display: flex;
+            align-items: center;
+            padding-bottom: 60px;
+            padding-top: 25px;
+            font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+            font-size: 16px;
+            
+        }
+        .call img {
+            margin-right: 17px;
+            padding-bottom: 60px;
+            padding-left: 10px;
+            width: 30px;
+            height: auto; 
+        }
+        .call span {
+            flex-grow: 1;
+        }
+        .vertical-line{
+            border-left: 1px solid gray; 
+            height: 100px; 
+            
+            padding-right: 858px;
+        }
+
+        .email {
+            display: flex;
+            align-items: center;
+            padding-bottom: 60px;
+            padding-top: 25px;
+            font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+            font-size: 16px;
+           
+        }
+        .email img {
+            margin-right: 17px;
+            padding-bottom: 31px;
+            padding-left: 10px;
+            width: 30px;
+            height: auto; 
+        }
+        .email span {
+            flex-grow: 1;
+        }
+        .vertical-line{
+            border-left: 1px solid gray; 
+            height: 100px; 
+            
+            padding-right: 858px;
+        } */
+
+  .contain {
+    float: left;
+    margin-right: 20px;
+    padding-top: 35px;
+    /* Adjust margin as needed */
+  }
+  .contain2 {
+    float: left;
+    margin-right: 20px;
+    /* padding-top: 35px; */
+    /* Adjust margin as needed */
+  }
+  .contain3 {
+    /* display: flex ;
+    margin-right: 20px; */
+    /* padding-top: 35px; */
+    /* Adjust margin as needed */
+  }
+
+  
+
+  .address,
+  .call,
+  .email {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    /* Adjust margin as needed */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 16px;
+  }
+
+  .address img,
+  .call img,
+  .email img {
+    margin-right: 17px;
+    width: 30px;
+    height: auto;
+  }
+
+  .address span,
+  .call span,
+  .email span {
+    flex-grow: 1;
+  }
+
+  .vertical-line {
+    border-left: 1px solid gray;
+    height: auto;
+    /* Adjust height as needed */
+    margin: 0 20px;
+    /* Adjust margin as needed */
+  }
+  .email{
+    padding-left: 630px;
+    margin-top: -30px;
+  }
+  .call{
+    padding-left: 147px;
+    padding-top: 38px;
+  }
+  .contact{
+    background-color: rgb(194, 190, 190);
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+  }
+  .contact h3{
+    /* margin-top: 15px;   */
+    text-align: center;
+  }
+  .email img{
+    padding-bottom: 30px;
+  }
+  
